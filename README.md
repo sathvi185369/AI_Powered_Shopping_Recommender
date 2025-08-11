@@ -1,4 +1,4 @@
-<img width="1903" height="710" alt="Screenshot 2025-08-11 153058" src="https://github.com/user-attachments/assets/795f56d1-73cb-40eb-94c1-f9af6941b25f" /># AI_Powered_Shopping_Recommender
+# AI_Powered_Shopping_Recommender
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/fc107ca7-2c87-4c1d-a4fc-b29012c881ec" />
 
@@ -46,6 +46,7 @@ cd ai-shopping-recommender
 2️⃣ Install dependencies
 
 pip install -r requirements.txt
+
 3️⃣ Prepare dataset
 
 Store all product images in data/images/
@@ -67,17 +68,18 @@ display_results(results)
 📊 How It Works
 Preprocessing
 
-CLIP extracts image & text embeddings
+-CLIP extracts image & text embeddings
 
-Features are normalized & stored in FAISS
+-Features are normalized & stored in FAISS
 
-Searching
+-Searching
 
-Encode query (image/text) with CLIP
+-Encode query (image/text) with CLIP
 
-Search embeddings in FAISS index
+-Search embeddings in FAISS index
 
-Display top matches with details
+-Display top matches with details
+
 
 🚀 Future Enhancements
 
